@@ -22,13 +22,24 @@ ul, ol {
  a {
     text-decoration: none;
 }
-
+input {
+   font-family: inherit;
+   background: none;
+   
+   
+   
+}
+button {
+   font-family: inherit;
+   color: currentColor;
+}
 .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
    }
-
+   
+   
 /* header */
 .page-header {
    border-bottom: 1px solid #E7E9FC;
@@ -501,3 +512,73 @@ ul, ol {
 .social-link-footer:focus {
    background-color: #31d0aa;
 }
+
+
+/* form */
+ .subscribe-box {
+   margin-left: 80px;
+ }
+ .subscribe-form {
+   display: flex;   
+ }
+       
+
+.subscribe-text {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #fff;
+   margin-bottom: 16px;
+}
+
+
+.subscribe-input {
+   border: 1px solid #fff;
+   border-radius: 4px;
+   width: 264px;
+   height: 40px;
+   color: #fff;
+   padding: 8px 16px;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 0.04em;
+} 
+
+input::placeholder {
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 0.04em;
+   color: #fff;
+   border: 0;
+}
+
+.subscribe-icon {
+   fill: #fff;
+   width: 24px;
+   height: 24px;
+   margin-left: 16px;
+}
+
+.button-subscribe {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #4d5ae5;
+   border-radius: 4px;
+   padding: 8px 24px ;
+   border: none;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+   text-align: center;
+   color: #ffffff;
+   width: 165px;
+   height: 40px;
+   cursor: pointer;
+   margin-left: 16px;
+}
+
+
+
