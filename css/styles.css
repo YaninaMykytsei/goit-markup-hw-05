@@ -519,7 +519,8 @@ button {
    margin-left: auto;
  }
  .subscribe-form {
-   display: flex;   
+   display: flex; 
+   gap: 24px;  
  }
        
 
